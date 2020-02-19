@@ -1,12 +1,23 @@
 # gocb README
 
-This is the README for your extension "gocb". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "gocb". This extension enables any golang developer to quickly create couchbase scaffolding
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+goget  - provides mux router syntax to add a new GET endpoint
+gopost - provides mux router syntax to add a new POST endpoint
+gocbrepo - generates scaffolding templates with CRUD operations that would act as a repository.
+           by default the actions takes the name of the .go file.
+           Developer may want to Inject bucket by replacing bucket := utils.Bucket() with their own implementation
+gocbaddapi - generates scaffolding template for add api, enter the name of the repo / model upon blinking cursor
+             press the tab key once done.
+gocbgetapi - generates scaffolding template for get api, enter the name of the repo / model upon blinking cursor
+             press the tab key once done.
+gocbupdateapi - generates scaffolding template for update api, enter the name of the repo / model upon blinking cursor
+             press the tab key once done.
+gocbdelapi - generates scaffolding template for delete api, enter the name of the repo / model upon blinking cursor
+             press the tab key once done.
 
-For example if there is an image subfolder under your extension project workspace:
 
 \!\[feature X\]\(images/feature-x.png\)
 
@@ -14,48 +25,23 @@ For example if there is an image subfolder under your extension project workspac
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
+These snippets focussed only for golang developers who would want to rampup and learn couchbase
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+This is the initial release for any golang developers implementing couchbase
 
 ### 1.0.0
 
-Initial release of ...
+Initial release of golang snippets for couchbase developers
 
-### 1.0.1
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
 
 -----------------------------------------------------------------------------------------------------------
 
-## Working with Markdown
 
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
 
 ### For more information
 
