@@ -24,6 +24,7 @@ gocbdelapi - generates scaffolding template for delete api, enter the name of th
 These snippets focussed only for golang developers who would want to rampup and learn couchbase
 ## Extension Settings
 
+Download this repository and deploy the folder in the snippets folder under rootdirectory/<user>/.vscode
 
 ## Release Notes
 
@@ -32,16 +33,3 @@ This is the initial release for any golang developers implementing couchbase
 ### 1.0.0
 
 Initial release of golang snippets for couchbase developers
-
-
-
------------------------------------------------------------------------------------------------------------
-
-
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
