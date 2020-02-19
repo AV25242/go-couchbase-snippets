@@ -1,0 +1,26 @@
+{
+    "name": "gocb",
+    "displayName": "gocb",
+    "description": "simple snippets for golang couchbase",
+    "version": "1.0.0",
+    "publisher": "arun vijayraghavan",
+    "repository": {
+        "type" : "git",        
+        "url" : "https://github.com/AV25242"
+    },
+    "icon" : "CB.png",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "go",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
